@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(36, 122, 122);
+    justify-content: center;
+    justify-items: center;
+}
+input{
+    padding: 10px;
+    border-radius: 5px
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+}
+ul{
+    list-style: none;
+}
+#list {
+    background-color: dimgray;
+    border-radius: 20px;
+    font-size: 30px;
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+  }
+
+.items{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+
+}
+.items div {
+        white-space: nowrap;
+  }
+  
+
